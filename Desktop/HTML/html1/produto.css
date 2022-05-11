@@ -1,0 +1,92 @@
+header{
+    background-color: #d3d3d3;
+    padding:25px 0;
+}
+.caixa{
+    position:relative;
+    width:940;
+    margin:0 auto;
+    
+    
+}
+nav{
+    position:absolute;
+    top:120px;
+    right: 120px;;
+    
+}
+
+nav li{
+    display: inline;
+    margin:0 0 0 15px;
+    padding:25px;
+}
+nav a{
+    text-transform: uppercase;
+    color:#000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    
+    
+}
+nav a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.product{
+    
+    width:940px;
+    margin:0 auto;
+    
+    
+}
+
+.product li{
+    text-align: center;
+    display: inline-block;
+    width:30%;
+    vertical-align: top;
+    
+    margin: 0 1.5%;
+    padding:30px 20px;
+    margin-top: 45px;
+    box-sizing: border-box;
+    border:5px solid rgb(193, 214, 214);
+    border-radius: 30px;
+}
+.product li:hover{
+    border-color:rgb(211, 172, 248);
+}
+.product li:active{
+    border-color:rgb(91, 0, 175);
+}
+.product li:hover h2{
+    font-size: 35px;
+}
+h2{
+    font-size:30px;
+    font-weight:bold;
+}
+
+.descrição{
+    font-size:18px;
+}
+.preco{
+    font-size:22px;
+    font-weight:bold;
+    margin: 30px 0 0;
+    margin-top:10px;
+}
+footer{
+    background: url("bg.jpg");
+    text-align: center;
+    vertical-align: top;
+    margin-top: 10%;
+    padding: 40px 0;
+}
+footer p{
+    font-size: 13px;
+    color:white;
+}
+
